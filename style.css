@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* displays grid left and right */
+}
+
+/* SIDE BAR */
+
+.sidebar {
+    background-color: bisque;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 40px;
+    gap: 10px;
+}
+
+.logo>h1 {
+    font-size: 1.4rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 40px;
+}
+
+.menu-item>h1 {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.menu-item>img {
+    max-width: 20px;
+}
+
+.second-links {
+    margin-top: 40px;
+}
+
+/* MAIN SCREEN*/
+
+.main-content {
+    background-color: tan;
+    height: 100vh;
+}
