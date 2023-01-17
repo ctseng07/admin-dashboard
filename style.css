@@ -30,6 +30,7 @@ body {
     justify-content: flex-start;
     margin: 30px 40px;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logo>h1 {
@@ -42,6 +43,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin: 10px 40px;
+    cursor: pointer;
 }
 
 .menu-item>h1 {
@@ -57,9 +59,135 @@ body {
     margin-top: 40px;
 }
 
-/* MAIN SCREEN*/
+/* HEADER */
 
 .main-content {
     background-color: tan;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    /* create separation from header and content */
 }
+
+.header {
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar,
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.search-input {
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+
+#profile-pic {
+    border-radius: 100px;
+    margin: 0 10px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.headerBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: darkgrey;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+}
+
+/* MAIN CONTENT */
+
+.content {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px;
+    gap: 10px;
+}
+
+.projects {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.projects,
+.sec {
+    /* display: flex;
+    flex-direction: column; */
+    border-left: red;
+
+}
+
+.sec {
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.sec>p {
+    font-size: 10px;
+}
+
+/* Announcements */
+
+.card>p {
+    font-size: 10px;
+}
+
+/* Trending */
+
+.trending {
+    margin-top: 20px;
+}
+
+.trend-card {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.trend-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+    gap: 10px;
+}
+
+.trend-profile>img {
+    border-radius: 100px;
+}
+
+.trend-text {}
