@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     background-color: bisque;
-    height: 100vh;
+    height: 150vh;
 }
 
 .logo {
@@ -63,9 +63,9 @@ body {
 
 .main-content {
     background-color: tan;
-    height: 100vh;
+    height: 150vh;
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 20% 80%;
     /* create separation from header and content */
 }
 
@@ -162,6 +162,10 @@ body {
 }
 
 /* Announcements */
+
+.announcements {
+    background-color: white;
+}
 
 .card>p {
     font-size: 10px;
