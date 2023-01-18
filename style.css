@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     background-color: bisque;
-    height: 150vh;
+    height: 160vh;
 }
 
 .logo {
@@ -63,7 +63,7 @@ body {
 
 .main-content {
     background-color: tan;
-    height: 150vh;
+    height: 160vh;
     display: grid;
     grid-template-rows: 20% 80%;
     /* create separation from header and content */
@@ -145,8 +145,8 @@ body {
 
 .projects,
 .sec {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     border-left: red;
 
 }
@@ -155,16 +155,41 @@ body {
     background-color: aliceblue;
     padding: 2rem;
     border-radius: 1rem;
+    margin: 10px;
+    width: 220px;
+    height: 120px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.sec {
+    font-size: 1.5rem;
 }
 
 .sec>p {
+    margin-top: 10px;
     font-size: 10px;
+}
+
+.icons {
+    cursor: pointer;
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
 }
 
 /* Announcements */
 
 .announcements {
-    background-color: white;
+    margin: 30px 0px;
+}
+
+.ann-cards {
+    width: 50vh;
+}
+
+.card {
+    margin-top: 30px;
+    background-color: aliceblue;
 }
 
 .card>p {
@@ -179,7 +204,7 @@ body {
 
 .trend-card {
     margin-top: 20px;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .trend-profile {
