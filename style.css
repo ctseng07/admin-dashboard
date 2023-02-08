@@ -293,8 +293,8 @@ body {
     background-color: lightgrey;
     border: darkgray;
     border-radius: 0.5rem;
-    max-width: 25vw;
-    max-height: 40vh;
+    min-width: 15vw;
+    min-height: 20vh;
     /* min-width: 20vw;
     min-height: 25vh; */
     padding: 0.5em;
@@ -323,4 +323,9 @@ body {
 
 .trend-text>p {
     font-size: 13px;
+}
+
+.trend-text {
+    max-height: 20vh;
+    min-width: 5vw;
 }
