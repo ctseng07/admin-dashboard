@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
@@ -90,12 +90,26 @@ body {
     flex-direction: column;
 }
 
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+
+
 .nav-bar,
 .profile {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 5px 20px;
+}
+
+.nav-profile {
+    display: flex;
+    align-items: center;
 }
 
 
