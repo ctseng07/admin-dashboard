@@ -14,10 +14,11 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 1fr 4fr;
     /* displays grid left and right */
-    min-width: 100vw;
+    min-width: 50vw;
     min-height: 100vh;
+    /* overflow: auto; */
 }
 
 /* SIDE BAR */
@@ -25,23 +26,20 @@ body {
 .sidebar {
     background-color: bisque;
     min-height: 50vh;
-    min-width: 100vw;
-    /* max-width: 200vw;
-    overflow: auto;
-    flex-grow: 1;
-    grid-column: 1/2; */
+    min-width: 200px;
+
 }
 
 .logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    margin: 30px 40px;
+    justify-content: center;
+    margin: 30px 0;
     gap: 10px;
     cursor: pointer;
     min-height: 10vh;
-    max-width: 15vw;
+
+
 }
 
 .logo>h1 {
@@ -69,6 +67,7 @@ body {
 .menu-item>h1 {
     margin-left: 20px;
     font-size: 1rem;
+    min-width: 10vw;
 }
 
 .menu-item>img {
@@ -76,12 +75,12 @@ body {
 }
 
 .main-links {
-    min-width: 100vw;
+    min-width: 1vw;
 }
 
 .second-links {
     margin-top: 40px;
-    min-width: 100vw;
+    min-width: 10vw;
 }
 
 /* HEADER */
@@ -126,7 +125,7 @@ body {
 
 
 .search-input {
-    max-width: 500px;
+    max-width: 500vw;
     background-color: lightgray;
     border-radius: 10px;
     border: 1px solid darkgray;
@@ -191,12 +190,13 @@ body {
 
 }
 
-.main {
+/* .main {
     min-height: 100vh;
-
+    min-width: 100vw;
     display: grid;
-    /* grid-template-columns: 1fr 5fr; */
-}
+     grid-template-columns: 1fr 5fr; 
+} 
+*/
 
 .projects {
     margin-top: 30px;
@@ -293,7 +293,7 @@ body {
     background-color: lightgrey;
     border: darkgray;
     border-radius: 0.5rem;
-    min-width: 15vw;
+    max-width: 30vw;
     min-height: 20vh;
     /* min-width: 20vw;
     min-height: 25vh; */
@@ -312,17 +312,17 @@ body {
     gap: 10px;
     max-width: 20vw;
     max-height: 10vh;
-    min-height: 3vh;
-    min-width: 3vw;
 }
 
 .trend-profile>img {
     border-radius: 50px;
     min-height: 30px;
+    max-width: 30vw;
 }
 
 .trend-text>p {
     font-size: 13px;
+    max-width: 10vw;
 }
 
 .trend-text {
